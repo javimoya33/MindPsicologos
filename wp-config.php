@@ -26,7 +26,7 @@ define( 'DB_NAME', 'wcepoyncomu2022' );
 define( 'DB_USER', 'wcepoyncomu2022' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'mindPsiBD2022' );
+define( 'DB_PASSWORD', 'loB3lpic79BHe25' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'wcepoyncomu2022.mysql.db' );

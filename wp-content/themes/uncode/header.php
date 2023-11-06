@@ -38,8 +38,11 @@ if (is_admin_bar_showing()) {
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="<?php echo esc_attr( apply_filters( 'uncode_meta_viewport', 'width=device-width, initial-scale=1') ); ?>">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="http://momentjs.com/downloads/moment.min.js"></script>
 <?php wp_head(); ?>
 </head>
 <?php

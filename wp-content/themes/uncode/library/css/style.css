@@ -3263,7 +3263,7 @@ body.compose-mode .main-container .uncode-scroll-visible.add-zoomout .t-backgrou
   .main-container .uncol.unexpand > div > div > .uncont .cols-md-responsive > div[class*=col-md-]:not(.col-md-clear),
   .main-container .unequal.row > .row-inner > div > .uncol .cols-md-responsive > div[class*=col-md-]:not(.col-md-clear),
   .main-container .unequal .row-internal .cols-md-responsive > div[class*=col-md-]:not(.col-md-clear) {
-    display: table-cell !important;
+    display: contents !important;
   }
 }
 @media (min-width: 570px) and (max-width: 959px) {
@@ -20877,4 +20877,19 @@ html:not(.no-cssanimations) .animate_when_parent_almost_visible[data-speed="1000
     opacity: 1;
     transform: scale(1);
   }
+}
+
+@media only screen and (max-width: 900px) {
+    .cab-invisible {
+        height: 0px;
+        margin-top: 10px;
+    }
+	
+	.double-block-padding {
+    	padding: 54px 0px 54px 0px;
+	}
+	
+	.single-block-padding {
+    	padding: 36px 5px 36px 5px;
+	}
 }
